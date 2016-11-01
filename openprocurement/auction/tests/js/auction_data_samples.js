@@ -97,4 +97,4 @@ var auction = {
 }
 
 var bidder_id = 'id_1',
-  var Rounds = [0, 3, 9]
+  Rounds = [0, 3, 9];
