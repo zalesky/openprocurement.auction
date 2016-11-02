@@ -337,6 +337,7 @@ angular.module('auction')
       'get_round_data': get_round_data,
       'scroll_to_stage': scroll_to_stage,
       'parseQueryString': parseQueryString,
+      
       'stringifyQueryString': stringifyQueryString,
       'prepare_title_ending_data': prepare_title_ending_data,
       'pad': pad,
