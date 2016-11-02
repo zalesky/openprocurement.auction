@@ -10,9 +10,9 @@ module.exports = function(config) {
     basePath: '',
     frameworks: ['jasmine'],
     files: [
+      'static/vendor/angular/angular.js',
       'static/vendor/event-source-polyfill/eventsource.js',
       'static/vendor/moment/min/moment.min.js',
-      'static/vendor/angular/angular.js',
       'static/vendor/es5-shim/es5-shim.js',
       'static/vendor/angular-mocks/angular-mocks.js',
       'static/vendor/angular-cookies/angular-cookies.js',
@@ -23,8 +23,11 @@ module.exports = function(config) {
       'static/vendor/angular-translate-storage-cookie/angular-translate-storage-cookie.js',
       'static/vendor/angular-translate-storage-local/angular-translate-storage-local.js',
       'static/vendor/angular-growl-2/build/angular-growl.js',
+      'static/vendor/angular-gtm-logger/angular-gtm-logger.js',
       'static/vendor/moment/locale/uk.js',
       'static/vendor/moment/locale/ru.js',
+      'static/vendor/angular-ellipses/src/truncate.js',
+
       'static/static/js/*.js',
       {pattern: 'tests/js/*.js', included: true}
     ],
