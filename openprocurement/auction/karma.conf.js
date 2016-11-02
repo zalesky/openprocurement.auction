@@ -27,7 +27,6 @@ module.exports = function(config) {
       'static/vendor/moment/locale/uk.js',
       'static/vendor/moment/locale/ru.js',
       'static/vendor/angular-ellipses/src/truncate.js',
-
       'static/static/js/*.js',
       {pattern: 'tests/js/*.js', included: true}
     ],
