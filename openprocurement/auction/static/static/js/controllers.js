@@ -11,7 +11,7 @@ angular.module('auction').controller('AuctionController', [
     $timeout, $http, $log, $cookies, $cookieStore, $window,
     $rootScope, $location, $translate, $filter, growl, growlMessages, $aside, $q
   ) {
-    if (AuctionUtils.inIframe()) {
+    if (AuctionUtils.inIframe() && 'localhost'!= location.hostname) {
       $log.error('Starts in iframe');
       window.open(location.href, '_blank');
       return false;
@@ -375,6 +375,8 @@ angular.module('auction').controller('AuctionController', [
     $scope.warning_post_bid = function(){
       growl.error('Unable to place a bid. Check that no more than 2 auctions are simultaneously opened in your browser.');
     };
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//MY HALF
     $scope.post_bid = function(bid) {
       $log.info({
         message: "Start post bid",

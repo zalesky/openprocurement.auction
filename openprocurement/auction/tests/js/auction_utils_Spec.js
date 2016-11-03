@@ -1,4 +1,4 @@
-var auction_doc_id = 'test';
+/*var auction_doc_id = 'test';
 
 beforeEach(function() {
     module('auction')
@@ -46,4 +46,4 @@ describe('Unit: Testing AuctionUtils "prepare_info_timer_data" ', function() {
     expect(result.start_time).toEqual(false);
     expect(result.msg).toEqual('until the auction starts');
   }]));
-});
+});*/

@@ -1,4 +1,4 @@
-//stringifyQueryString
+/*//stringifyQueryString
 describe('Unit: Testing AuctionUtils "stringifyQueryString" ', function() {
 
   it('should be Defined', angular.mock.inject(['AuctionUtils', function(AuctionUtils) {
@@ -131,4 +131,4 @@ describe('Unit: Testing AuctionUtils "UnsupportedBrowser" ', function() {
   it('should be Defined', angular.mock.inject(['AuctionUtils', function(AuctionUtils) {
     expect(AuctionUtils.UnsupportedBrowser).toBeDefined();
   }]));
-});
+});*/
