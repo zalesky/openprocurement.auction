@@ -1,7 +1,7 @@
 // Karma configuration
 // Generated on Tue Jan 27 2015 16:07:18 GMT+0200 (EET)
 //to run tests install karma globaly then: 
-//npm run test
+//npm test
 //or 
 //karma start 
 
@@ -13,7 +13,6 @@ module.exports = function(config) {
       'static/vendor/angular/angular.js',
       'static/vendor/event-source-polyfill/eventsource.js',
       'static/vendor/moment/min/moment.min.js',
-      'static/vendor/es5-shim/es5-shim.js',
       'static/vendor/angular-mocks/angular-mocks.js',
       'static/vendor/angular-cookies/angular-cookies.js',
       'static/vendor/pouchdb/dist/pouchdb.js',
