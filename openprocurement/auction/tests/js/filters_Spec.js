@@ -1,4 +1,4 @@
-/*var auction_doc_id = 'test';
+var auction_doc_id = 'test';
 beforeEach(module('auction'));
 
 describe('Unit: Testing Filter "formatnumber" - ', function() {
@@ -27,4 +27,4 @@ describe('Unit: Testing Filter "formatnumber" - ', function() {
     expect($filter('formatnumber')(true)).toEqual('1');
     expect($filter('formatnumber')(false)).toEqual('0');
   }));
-});*/
+});
