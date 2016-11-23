@@ -47,6 +47,7 @@
                 </div>
 
                 <div class="header-auction-item navbar-brand pull-left round-info timer-text">
+                    <button type="button" class="btn btn-default" ng-click="doScreenshot()">do screenshot</button>
                     <span class="header-auction-item-visual">
                         <timer timerid="1" ng-if="!$parent.info_timer.start_time" countdown="$parent.info_timer.countdown" max-time-unit="second" interval="1000">
                             <span ng-show="days">
