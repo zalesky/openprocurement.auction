@@ -778,6 +778,12 @@ angular.module('auction').controller('AuctionController', [
       }
     };
     $scope.doScreenshot = AuctionUtils.doScreenshot;
+    $scope.keyUpListener = function(event){
+      if(event.ctrlKey && event.altKey && event.which == 83){
+        event.preventDefault();
+        AuctionUtils.doScreenshot();
+      }
+    };
     $scope.start();
   }
 ]);
